@@ -28,3 +28,5 @@ find / -uid 0 -perm -4000 2>/dev/null
 find / -uid 0 -perm -2000 2>/dev/null
 date
 ```
+# File pada Linux
+Pada prinsipnya Linux memperlakukan Directory sama dengan file biasa, perbedaannya adalah Directory adalah suatu file yang berisi daftar nama Directory ataupun file lainnya.
