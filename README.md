@@ -39,3 +39,6 @@ c special file
 s Socket
 p Named pipe
 b Block device
+
+# Daftar Pustaka
+http://www.porcupine.org/forensics/forensic-discovery/
