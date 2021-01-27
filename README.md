@@ -39,6 +39,20 @@ Ketika anda memberikan perintah ls -l, maka akan ditampilkan daftar file, sesuat
 * s Socket
 * p Named pipe
 * b Block device
+## status pada file
+Mendapatkan Modify, Access, dan Create time pada suatu file/directory dapat menggunakan perintah stat <nama file/directory>
+```
+stat test.py
 
+stat test.py
+  File: 'test.py'
+  Size: 4096            Blocks: 8          IO Block: 4096   directory
+Device: 802h/2050d      Inode: 4736978     Links: 5
+Access: (0755/drwxr-xr-x)  Uid: ( 1003/user001)   Gid: ( 1003/user001)
+Access: 2021-01-27 15:45:54.146414112 +0700
+Modify: 2019-04-24 10:45:53.582765182 +0700
+Change: 2019-04-24 10:45:53.582765182 +0700
+
+```
 # Daftar Pustaka
 http://www.porcupine.org/forensics/forensic-discovery/
