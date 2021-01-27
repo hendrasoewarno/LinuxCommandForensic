@@ -32,13 +32,13 @@ date
 Pada prinsipnya Linux memperlakukan Directory sama dengan file biasa, perbedaannya adalah Directory adalah suatu file yang berisi daftar nama Directory ataupun file lainnya.
 ## jenis File
 Ketika anda memberikan perintah ls -l, maka akan ditampilkan daftar file, sesuatu hal yang perlu anda perhatikan adalah jenis file yang mungkin pada Linux. Pada umumnya kita hanya memperhatikan jenis file yang berupa (- regular file, d directory, dan l symbolic link file), tetapi sebenarnya pada Linux masih terdapat beberapa jenis file lainnya:
-- regular file
-d directory
-l symbolik link file
-c special file
-s Socket
-p Named pipe
-b Block device
+* - regular file
+* d directory
+* l symbolik link file
+* c special file
+* s Socket
+* p Named pipe
+* b Block device
 
 # Daftar Pustaka
 http://www.porcupine.org/forensics/forensic-discovery/
